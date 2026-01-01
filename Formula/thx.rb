@@ -5,21 +5,21 @@
 class Thx < Formula
   desc "CLI for Things 3 on macOS"
   homepage "https://github.com/peeomid/thx"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/peeomid/thx/releases/download/v0.2.0/thx_Darwin_x86_64.tar.gz"
-    sha256 "07235588afc468364744d7a0c81ab0521000c0f1ae7b013583ed0a8ed58af5b1"
+    url "https://github.com/peeomid/thx/releases/download/v0.2.1/thx_Darwin_x86_64.tar.gz"
+    sha256 "ce2e5b226c7b3d8926d02de627b5daefdf60cc3226926531275d5d383c9d5295"
 
     def install
       bin.install "thx"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/peeomid/thx/releases/download/v0.2.0/thx_Darwin_arm64.tar.gz"
-    sha256 "445837f544dc3d5cd9bf676d635d8a015bc734bbf37f625b6dfa1badd3a4112b"
+    url "https://github.com/peeomid/thx/releases/download/v0.2.1/thx_Darwin_arm64.tar.gz"
+    sha256 "8d5c7f86aab58e71cdcf8ff2c9042bef2a54fc0d9d75da276a856c61cb58c865"
 
     def install
       bin.install "thx"
