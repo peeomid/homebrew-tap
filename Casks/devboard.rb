@@ -1,6 +1,6 @@
 cask "devboard" do
-  version "0.1.0"
-  sha256 "6b67825866f3435f5b0235cb8322f842817454a100370bad129d9b344d9666ea"
+  version "0.2.0"
+  sha256 "ec4d198b2520e04902220521b38f253081d9fac92df8de729ff15d5fcc4dec66"
 
   url "https://github.com/peeomid/devboard/releases/download/v#{version}/Devboard_#{version}_aarch64.dmg"
   name "Devboard"
