@@ -33,6 +33,21 @@ tmd init
 tmd interactive
 ```
 
+### trove
+
+CLI for managing Obsidian vault ideas, projects, sessions, builds, and knowledge.
+
+```bash
+brew tap peeomid/tap
+brew install trove
+```
+
+```bash
+trove version
+trove project list
+trove session list
+```
+
 ## Available Casks
 
 ### devboard
@@ -49,6 +64,7 @@ brew install --cask devboard
 ## More Info
 
 - [prj on GitHub](https://github.com/peeomid/prj)
+- [trove release assets](https://github.com/peeomid/homebrew-tap/releases)
 - [devboard on GitHub](https://github.com/peeomid/devboard)
 - [todosmd on GitHub](https://github.com/peeomid/todos.md)
 - [todosmd on npm](https://www.npmjs.com/package/todosmd)
