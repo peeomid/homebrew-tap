@@ -39,7 +39,7 @@ CLI for managing Obsidian vault ideas, projects, sessions, builds, and knowledge
 
 ```bash
 brew tap peeomid/tap
-brew install trove
+brew install peeomid/tap/trove
 ```
 
 ```bash
