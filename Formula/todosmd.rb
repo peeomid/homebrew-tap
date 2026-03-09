@@ -1,8 +1,8 @@
 class Todosmd < Formula
   desc "Terminal-based task manager for Markdown files with vim keybindings"
   homepage "https://github.com/peeomid/todos.md"
-  url "https://registry.npmjs.org/todosmd/-/todosmd-0.1.6.tgz"
-  sha256 "7447e6f182a39f24f0e69011828d502f2bdde1c5241914673175eb48efd06a66"
+  url "https://github.com/peeomid/homebrew-tap/releases/download/todosmd-v0.1.7/todosmd-0.1.7.tgz"
+  sha256 "a39d0f2355e82f316dc183808bc92e050096a3dbec66fa02d4975642b4f2d85d"
   license "MIT"
 
   depends_on "node@20"
