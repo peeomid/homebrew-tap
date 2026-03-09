@@ -5,21 +5,21 @@
 class Trove < Formula
   desc "CLI for managing Obsidian vault ideas, projects, and knowledge"
   homepage "https://github.com/peeomid/homebrew-tap"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/peeomid/homebrew-tap/releases/download/trove-v0.4.0/trove_Darwin_x86_64.tar.gz"
-    sha256 "e31a78eff85188d49cc2a277e9e67f7bd38a3768ca8260ed28813480a3295c7a"
+    url "https://github.com/peeomid/homebrew-tap/releases/download/trove-v0.4.1/trove_Darwin_x86_64.tar.gz"
+    sha256 "1682ae92c9ab49cabdb5de8495534617fcb0da9558dea862985de59871bb5433"
 
     def install
       bin.install "trove"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/peeomid/homebrew-tap/releases/download/trove-v0.4.0/trove_Darwin_arm64.tar.gz"
-    sha256 "508a05908b12b2373e0604caf3ec003b977420aed0ab96537f32cb4f3bfd3b26"
+    url "https://github.com/peeomid/homebrew-tap/releases/download/trove-v0.4.1/trove_Darwin_arm64.tar.gz"
+    sha256 "ce2c8e040c5fb128a1ac736f4884343db67c518041b42f22ac75048e6ed161ad"
 
     def install
       bin.install "trove"
