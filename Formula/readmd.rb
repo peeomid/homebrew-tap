@@ -1,8 +1,7 @@
 class Readmd < Formula
   desc "Render Markdown into beautiful standalone HTML reading pages"
   homepage "https://github.com/peeomid/readmd"
-  url "https://github.com/peeomid/readmd.git", branch: "master"
-  version "0.1.0"
+  url "https://github.com/peeomid/readmd.git", tag: "v0.1.1"
   license "MIT"
 
   depends_on "rust" => :build
